@@ -7,14 +7,14 @@ module.exports = {
     'Self-hostable branded link shortener built with Next.js & Notion API',
 
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  deployUrl: 'https://notiolink.thcl.dev',
+  deployUrl: 'https://notiolink-xi.vercel.app/',
 
   /**
    * Color theme for the app
    * @type {'light' | 'dark' | 'milky' | 'street' | 'monokai'}
    */
-  theme: 'dark',
+  theme: 'street',
 
   /** REQUIRED CONFIG: Set this to 'false'  */
-  demoMode: 'true',
+  demoMode: 'false',
 };
